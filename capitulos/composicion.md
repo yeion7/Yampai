@@ -1,8 +1,3 @@
-
-#Entendiendo la composición en JavaScript
-
-##En muchas ocasiones vemos que el sistema de objetos de JavaScript es nombrado como basado ejemplos o prototipos, pero no siempre vemos qu…
-
 ##Entendiendo la composición en JavaScript
 
 En muchas ocasiones vemos que el sistema de objetos de JavaScript es nombrado como basado ejemplos o prototipos, pero no siempre vemos qué significa esto.
@@ -19,22 +14,64 @@ Veamos como se implementa la composición en JavaScript
 
 ###Object.assign(..)
 
-Desde *ES2105* el lenguaje implementa el [método *Object.assign()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/assign)*, el cual permite componer objetos o hacer mixins (como algunos lo conocen)
+Desde *ES2105* el lenguaje implementa el *[método Object.assign()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/assign)*, el cual permite componer objetos o hacer mixins (como algunos lo conocen)
+
 > Aunque antes podíamos hacer uso de esta funcionalidad en librerías como jquery con [$.extend()](https://api.jquery.com/jquery.extend/) o en lodash con [_.assign()](https://lodash.com/docs#assign)
 
 La sintaxis del método es bastante simple, este recibe la cantidad de argumentos desees, pero **todos deben ser objetos**.
 
 De estos argumentos el primero, es el objeto sobre el cual se va a construir (el objeto destino), los demás argumentos, son los objetos que se van a usar para construir.
 
-<iframe src="https://medium.com/media/3e9e4561be8de43e8a672a6d73fbc799" frameborder=0></iframe>
+```js
+const comer = {
+  comer(comida = '') {console.log(`Estoy comiendo ${comida}`)}
+}
+
+const caminar = {
+  caminar() {console.log('estoy caminando')}
+}
+
+const taladrar = {
+  taladrar() {console.log('estoy taladrando')}
+}
+
+const masajear = {
+  masajear() {console.log('Estoy masajeando')}
+}
+
+
+const obrero = Object.assign({nombre: 'Juan'}, comer, caminar, taladrar)
+const masajista = Object.assign({nombre: 'Juana'}, comer, caminar, masajear)
+
+masajista.masajear() //'Estoy masajeando'
+obrero.taladrar() // 'estoy taladrando'
+
+masajista.comer('Ensalada') // 'Estoy comiendo Ensalada'
+obrero.comer('Carne') // Estoy comiendo Carne
+```
 
 Es importante tener en cuenta, que
 
 * Solo se copian las propiedades enumerables de cada objeto
 
-* La composición usa el método [[put]], por esto se debe tener en cuenta los casos de [*shadowing](https://medium.com/@yeion7/propiedades-internas-en-javascript-717057026516) *.
+* La composición usa el método [[put]], por esto se debe tener en cuenta los casos de *[shadowing](https://medium.com/@yeion7/propiedades-internas-en-javascript-717057026516)*.
 
-<iframe src="https://medium.com/media/108e2bb7eb12e3692e40d58653cc42fa" frameborder=0></iframe>
+```
+const obj = {
+  get prop() {
+    return this.__prop__;
+  },
+  set prop(value) {
+    this.__prop__ = value * 4;
+  },
+};
+
+var bb = {
+  prop: 4
+};
+
+Object.assign(obj, bb); // obj.prop = 16
+```
 
 ###Ventajas
 
@@ -47,11 +84,3 @@ Es importante tener en cuenta, que
 * Podemos modularizar nuestro código, partiendo esos grandes y complejos objetos, en unos más pequeños.
 
 * Seguridad, ya que cada objeto es una entidad independiente.
-
-<iframe src="https://medium.com/media/073540706bc03f8ed7045546154c410a" frameborder=0></iframe>
-
-La próxima semana, escribiré sobre herencia funcional, que nos permitirá unir estos conceptos, y ver lo poderoso que resultan juntos.
-
- 
-
- 
