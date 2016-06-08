@@ -1,8 +1,3 @@
-
-#Entendiendo la herencia en JavaScript
-
-##La forma como objetos se relacionan entre ellos y se extienden para representar cosas en una aplicación se llama herencia y esta es…
-
 ##Entendiendo la herencia en JavaScript
 
 La forma como objetos se relacionan entre ellos y se extienden para representar cosas en una aplicación se llama *herencia* y esta es necesaria para crear aplicaciones grandes y complejas.
@@ -48,13 +43,14 @@ También como ya nombre, en SELF, no existen las clases, solo son objetos que si
 ![](https://medium2.global.ssl.fastly.net/max/2000/1*io3Hk19x39Lz7EG-HhzCqQ.png)**
 
 En contraposición a SmallTalk donde todo es un objeto y se debe instanciar una clase para tener un objeto, en SELF, también todo es un objeto, **pero** estos están vinculados y si se envía un mensaje a un objeto y no se encuentra la propiedad para este, esta seguirá buscando en los objetos vinculados, de esta manera se aplica la herencia.
+
 > #Uno de los aspectos más interesantes es la manera de combinar herencia, prototipos, y creación de objetos, eliminando la necesidad de clases
 
 También es posible, crear nuevos objetos desde prototipos utilizando una operación simple, *clonar*, de esta manera podemos construir objetos desde otros, como piezas de lego.
 
 ###¿Cómo se implementa en JavaScript?
 
-JavaScript al basarse en SELF es libre de clases, por lo tanto no se implementa la herencia clásica, dada la implementación del lenguaje se utiliza, **herencia de prototipos **que es más** simple, flexible y poderosa.**
+JavaScript al basarse en SELF es libre de clases, por lo tanto no se implementa la herencia clásica, dada la implementación del lenguaje se utiliza, **herencia de prototipos** que es más **simple, flexible y poderosa.**
 
 Pero esto ha sido a lo largo de los año una de las cosas menos comprendidas dentro de lenguaje, y se debe a varias cosas.
 
@@ -74,18 +70,12 @@ En JavaScript se implementa este patrón, utilizando una función como construct
 
 Todo esto se implementa sobre la herencia de prototipos pero no tiene el mismo poder y flexibilidad, ya que se cae en todos los problemas de la herencia clásica.
 
-**Herencia de prototipos: **Objetos se vinculan directamente de otros objetos, se pueden vincular a uno o varios objetos.
+**Herencia de prototipos:** Objetos se vinculan directamente de otros objetos, se pueden vincular a uno o varios objetos.
 
 En JavaScript tenemos tres maneras correctas de implementar esta herencia de prototipos.
 
 *Concatenación*: Se copian propiedades de uno o varios objetos, en un nuevo objeto destino, a esto también se le conoce como *mixins*, y desde *ES2015*, se cuenta con una manera sencilla de hacerlo con *Object.assign()*
 
-[*Delegación](https://medium.com/@yeion7/entendiendo-la-delegaci%C3%B3n-en-javascript-8d99e3bc3826)***: **Si se consulta una propiedad en un objeto y no se encuentra, se continúa buscando en el objeto al cual esté vinculado por [[prototype]], hasta llegar a *Object.prototype*, para controlar y determinar este vinculo entre objetos contamos con *Object.create()*
+*[Delegación](https://medium.com/@yeion7/entendiendo-la-delegaci%C3%B3n-en-javascript-8d99e3bc3826)*: Si se consulta una propiedad en un objeto y no se encuentra, se continúa buscando en el objeto al cual esté vinculado por [[prototype]], hasta llegar a *Object.prototype*, para controlar y determinar este vinculo entre objetos contamos con *Object.create()*
 
-*Funcional***: **Toda función puede retornar objetos aprovechándose de los [closures](https://medium.com/@yeion7/entendiendo-closures-en-javascript-8fb9a284964e) para tener propiedades privadas, a esto se le llama factory functions, se pueden extender estos objetos retornados directamente.
-
-En los siguientes post, trataré cada una de estas maneras de herencia, por separado.
-
- 
-
- 
+*Funcional*: Toda función puede retornar objetos aprovechándose de los [closures](https://medium.com/@yeion7/entendiendo-closures-en-javascript-8fb9a284964e) para tener propiedades privadas, a esto se le llama factory functions, se pueden extender estos objetos retornados directamente.
