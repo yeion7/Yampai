@@ -62,6 +62,6 @@ En siguientes post veremos más a fondo el funcionamiento de *let* y *const.*
 
 Tener claro donde viven y son accesibles nuestra variables nos va a permitir crear pure functions , lo que es bueno, ya que nos lleva a tener código con menos bugs. Cosa que nos hace feliz a todos.
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

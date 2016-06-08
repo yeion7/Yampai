@@ -106,6 +106,6 @@ En este punto te preguntarás ¿eso es todo?, yo también me hice esa pregunta, 
 
 Como vimos los tres tipos de herencia son bastante simples, pero se requiere practicar y saber como usarlos, en próximos post, traeré ejemplos sobre su implementación que nos permitan explorar estos más a fondo, por ahora te recomiendo leer este [post](http://www.nauzethdez.com/javascript-5-herencia-o-composicion/) es muy bueno y te mostrará la flexibilidad de la herencia en JS, también buscar repositorios de librerías y leer el código es una practica que te ayudará a ser mejor desarrollador.
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

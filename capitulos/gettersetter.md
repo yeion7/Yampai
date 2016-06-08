@@ -75,6 +75,6 @@ Veamos un último ejemplo
 
 <iframe src="https://medium.com/media/551ec01bb03e4b94907ec13543e5db18" frameborder=0></iframe>
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

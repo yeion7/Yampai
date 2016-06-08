@@ -104,6 +104,6 @@ Los objetos en JavaScript son entidades dinámicas que se pueden modificar en cu
 
 Aplicando los métodos que anteriores vamos a poder llegar a tener objetos inmutables, pero si tuviéramos otros objetos como propiedades, estos no aplican esta inmutabilidad, podríamos crear una función recursiva, que vuelva todas las propiedades de nuestros objetos inmutables o utilizas librerías como [immutable.js](https://facebook.github.io/immutable-js/) .
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

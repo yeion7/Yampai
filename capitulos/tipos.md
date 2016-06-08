@@ -108,6 +108,6 @@ Te recomiendo ver este video donde se muestran algunos errores del lenguaje refe
 
 <iframe src="https://medium.com/media/f97b8e28ac20c77a4032a285b60433d0" frameborder=0></iframe>
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

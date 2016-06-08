@@ -62,6 +62,6 @@ Puedes encontrar más referencias a este tema en:
 
 * [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) por [Douglas Crockford](http://www.crockford.com/) (página 37)
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

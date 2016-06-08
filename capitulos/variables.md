@@ -52,7 +52,3 @@ Por eso, estoy a favor de ***const*** sobre ***let*** y ***var***, ya que este n
 Así, ***let*** debería ser utilizado para variables dentro de loops o implementaciones de algoritmos como [swap](https://en.wikipedia.org/wiki/Swap_(computer_science)), donde se requiere intercambiar el valor de dos variables.
 
 Una herramienta poderosa que puedes utilizar para mejorar tu código en este y otros aspectos es un Linter, en especial recomiendo [ESLint](http://eslint.org/) junto con las [guías de estilo para escribir código del equipo de airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
-
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
-
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)

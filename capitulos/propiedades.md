@@ -158,6 +158,6 @@ Para evitar cualquier funcionamiento diferente al esperado, se recomienda usar *
 
 Nota: El comportamiento de *shadowing*, es un peligroso ya que puede llevar a comportamientos no esperados de las propiedades, se debe usar con gran cuidado.
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

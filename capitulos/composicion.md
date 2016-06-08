@@ -52,6 +52,6 @@ Es importante tener en cuenta, que
 
 La próxima semana, escribiré sobre herencia funcional, que nos permitirá unir estos conceptos, y ver lo poderoso que resultan juntos.
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

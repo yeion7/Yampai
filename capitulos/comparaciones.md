@@ -153,6 +153,6 @@ Puedes revisar este algoritmo en la especificación, [sección 11.8.5](http://ww
 
 <iframe src="https://medium.com/media/84cc154b5d845d2971afd9bbfe9e91a2" frameborder=0></iframe>
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 

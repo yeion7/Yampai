@@ -98,6 +98,6 @@ Seguiremos hablando de esto en los siguientes post.
 
 [Aqui](https://jsbin.com/nuqatu/12/edit?js,console) el codigo del ejemplo
 
-¿Quieres saber más de este u otros temas sobre JavaScript?, sigue nuestros encuentros quincenales en [HangoutJS](https://twitter.com/HangoutJs) donde hablamos en comunidad y aprendemos compartiendo conocimiento.
+ 
 
-[Aquí nuestros anteriores encuentros.](https://www.youtube.com/playlist?list=PLH3EFUtS4FBzUYU6BSouy0kiX3cnzyTKc)
+ 
